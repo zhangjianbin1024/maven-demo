@@ -105,6 +105,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/b2b/pom.xml" />
+        <option value="$PROJECT_DIR$/b2b/b2b-account/b2b-account-api/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-plugin-test/pom.xml" />
       </list>
     </option>
   </component>

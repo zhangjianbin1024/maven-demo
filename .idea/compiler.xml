@@ -7,14 +7,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="maven-demo" />
+        <module name="maven-plugin" />
+        <module name="b2b-order-api" />
+        <module name="b2b-account-service" />
+        <module name="b2b-order-service" />
+        <module name="maven-rpc" />
+        <module name="maven-plugin-test" />
+        <module name="b2b-account-api" />
+        <module name="maven-application" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="b2b" options="" />
+      <module name="b2b-account" options="" />
+      <module name="b2b-account-api" options="" />
+      <module name="b2b-account-service" options="" />
+      <module name="b2b-order" options="" />
+      <module name="b2b-order-api" options="" />
+      <module name="b2b-order-service" options="" />
+      <module name="maven-application" options="-parameters" />
       <module name="maven-demo" options="" />
+      <module name="maven-plugin" options="" />
+      <module name="maven-plugin-test" options="" />
+      <module name="maven-rpc" options="" />
     </option>
   </component>
 </project>
